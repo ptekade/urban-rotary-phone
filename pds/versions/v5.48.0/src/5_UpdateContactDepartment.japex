@@ -1,0 +1,42 @@
+{
+  "executeAnonymousApexScript":
+    [
+      {
+        "apexLogConfigs": [
+          {
+            "logLevel": "None",
+            "loggingSubsystem": "All"
+          },
+          {
+            "logLevel": "Error",
+            "loggingSubsystem": "Nba"
+          },
+          {
+            "logLevel": "Info",
+            "loggingSubsystem": "Db"
+          },
+          {
+            "logLevel": "Debug",
+            "loggingSubsystem": "Apex_code"
+          },
+          {
+            "logLevel": "None",
+            "loggingSubsystem": "Apex_profiling"
+          },
+          {
+            "logLevel": "None",
+            "loggingSubsystem": "Callout"
+          },
+          {
+            "logLevel": "Error",
+            "loggingSubsystem": "System"
+          },
+          {
+            "logLevel": "Info",
+            "loggingSubsystem": "Validation"
+          }
+        ],
+        "apexScriptStr": "Contact[] theseContacts = [SELECT Name, Phone, Email, Description FROM Contact\n WHERE (Department!='#{{DEPARTEMENT_NAME_FROM_ENV_VARIABLES}}')\n ORDER BY Name limit 20];\nSystem.debug( theseContacts.size() + ' contact(s) returned.');\nSystem.debug( theseContacts );\nif( theseContacts.size() != 0 ) {\n    theseContacts[0].Department = 'Specialty Crisis Management';\n    update theseContacts[0];\n}"
+      }
+    ]
+}

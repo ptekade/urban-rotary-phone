@@ -1,0 +1,29 @@
+{
+  "setupSObjects":
+    [
+      {
+        "actionType": "UPDATE",
+        "sObjectFields": [
+          {
+            "fieldApiName": "IsActive",
+            "pdsValueType": "ENVIRONMENT_VARIABLE",
+            "fieldValue": "SOME_BOOLEAN_FLAG_FROM_ENV_VARIABLES"
+          }
+        ],
+        "sObjectName": "RecordType",
+        "searchCondition": "DeveloperName = 'Fixed_Term_Booking' and sObjectType = 'TR1__Job__c'"
+      },
+      {
+        "actionType": "UPDATE",
+        "sObjectFields": [
+          {
+            "fieldApiName": "IsActive",
+            "pdsValueType": "SIMPLE_VALUE",
+            "fieldValue": false
+          }
+        ],
+        "sObjectName": "RecordType",
+        "searchCondition": "DeveloperName = 'Retained' and sObjectType = 'TR1__Job__c'"
+      }
+    ]
+}
