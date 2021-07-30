@@ -11,7 +11,7 @@
               {
                 "fieldApiName": "TR1__Alternative_Canvas_Connected_App_Name__c",
                 "pdsValueType": "ENVIRONMENT_VARIABLE",
-                "fieldValue": "CA_NAME_FROM_FROM_ENV_VARIABLES"
+                "fieldValue": "CA_NAME_FROM_FROM_ENV_VARIABLES",
                 "defaultValue": "SomeDefName"
               },
               {
