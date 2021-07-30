@@ -259,7 +259,6 @@
                 "pdsValueType": "SIMPLE_VALUE",
                 "fieldValue": "/apex/KanbanCandidateRejectAccept?mode=r&"
               },
-              },
               {
                 "fieldApiName": "TR1__Visibility_Expr__c",
                 "pdsValueType": "SIMPLE_VALUE",
