@@ -28,7 +28,7 @@
     </values>
     <values>
         <field>TR1__ATS_UI_Limit__c</field>
-        <value xsi:type="xsd:double">#{{CUSTOMER_SPECIFIC_LIMIT_VALUE}}</value>
+        <value xsi:type="xsd:double">#{{CUSTOMER_SPECIFIC_LIMIT_VALUE:22}}</value>
     </values>
     <values>
         <field>TR1__Action_Name__c</field>

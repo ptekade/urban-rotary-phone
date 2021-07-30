@@ -1,9 +1,9 @@
 Contact[] theseContacts = [SELECT Name, Phone, Email, Description FROM Contact
- WHERE (Department!='Specialty Crisis Management 3')
- ORDER BY Name limit 10];
+ WHERE (Department!='#{{DEPARTEMENT_NAME_FROM_ENV_VARIABLES}}')
+ ORDER BY Name limit 20];
 System.debug( theseContacts.size() + ' contact(s) returned.');
 System.debug( theseContacts );
 if( theseContacts.size() != 0 ) {
-    theseContacts[0].Department = 'Specialty Crisis Management 3';
+    theseContacts[0].Department = 'Specialty Crisis Management 2';
     update theseContacts[0];
 }
