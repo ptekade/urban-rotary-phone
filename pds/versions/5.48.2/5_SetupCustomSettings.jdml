@@ -1,0 +1,1096 @@
+{
+  "customSettingRecords": [
+    {
+      "fullApiName": "TR1__TalentRoverProperties__c",
+      "records": [
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName": "TR1__Allowed_Resume_File_Types__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "doc,docx,pdf,txt,rtf"
+            },
+            {
+              "fieldApiName": "TR1__Allow_CV_Templates_Sharing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Allow_Single_Interviewer_Email__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Assign_to_Default_Account_While_Parsing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__AutoPopulateSendOutFields__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Auto_run_zero_byte_Flash_code__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__By_Pass_10K_contact_validation__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Call_List_Types_ATS__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Call_List_Types_Contact_List_View__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Call_List_Types_Search_Match__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Candidate_Mktg_Call_List_Email_Field__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "TR1__Work_Email__c"
+            },
+            {
+              "fieldApiName": "TR1__Candidate_Status_When_Assignment_Ended__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "Test Status"
+            },
+            {
+              "fieldApiName": "TR1__Chatter_Auto_Follow_Job_Field__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "TR1__Division__c"
+            },
+            {
+              "fieldApiName": "TR1__Combine_call_list_using_an_async_process__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Create_Email_Activities__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Create_Email_Task_For_Candidate__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__CustomAsyncParserHandler__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__CustomParserHandler__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Daxtra_Host__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "tr-smws-eu0.talentrover.com"
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_ApplicationTrigger_V2__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_Call_List_Trigger__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_ClosingReportTrigger__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_Contact_Trigger__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_JobBoardApplicationTrigger__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_Last_Placement_Date_Logic__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Deactivate_SendoutScheduleV2Trigger__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Default_Account__c",
+              "pdsValueType": "SOQL_SIMPLE_RESULT",
+              "fieldValue": "SELECT Id FROM Account WHERE Name = 'Candidate Pool'"
+            },
+            {
+              "fieldApiName": "TR1__Default_Interview_Duration__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 15
+            },
+            {
+              "fieldApiName": "TR1__Delete_Contacts_from_TK__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Delete_JobBoard_Applications__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Delete_Logs_After__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 30
+            },
+            {
+              "fieldApiName": "TR1__Disable_Calendar_Invites__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Disable_Hide_Edit_for_HTML_Templates__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Disable_Zipcode_Mapping__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Document_Viewer_Host__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "https://tr-app-geo.talentrover.com/TalentRover/preview.aspx"
+            },
+            {
+              "fieldApiName": "TR1__Do_Not_Append_Account_to_Job_Name__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Do_Not_Attach_Resume_In_Call_List__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Do_Not_Copy_Job_Name_to_Job_Title__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Do_Not_Update_Call_List_Ids__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Do_not_Update_Contact_Account_in_CR__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Do_not_Update_Contact_From_Task__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__EmploymentCreationFromCR__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__EnableEmailFolders__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__EnableSharingModel__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_Account_Pool_v2__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_Availability_Periods__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_ConsentV2__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_Consent_Check_Enforcement__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_Create_New_Resume__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_Document_Editor__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_GDPR__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_Log_Module__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_New_Architecture__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_New_ATS_Data_model__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_Paste_Functionality__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Enable_SendOut_Interviewers_Job_Contact__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_Send_to_Additional_Internal_Users__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Fill_Logged_In_User_on_Send_Out__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Generate_Flash_File_With_Parsing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Google_Maps_API_Key__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "AIzaSyBOPo7asECE_Tzw4NtAhQApqIoNKjv_C90"
+            },
+            {
+              "fieldApiName": "TR1__Heroku_Connect_Enabled__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Hide_Applied_Candidates_in_SAM__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Hide_Send_as_Single_Email__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__IncludeJobRelatedList__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Is_Export_Enabled_In_SearchAndMatch__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__JBAs_for_LinkedIn_EasyApply__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__JobManager_LastActivity_Date__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Job_Manager_Submittal_Email_Field__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "TR1__Work_Email__c"
+            },
+            {
+              "fieldApiName": "TR1__Job_Manager_Submittal_Email_Template__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "EmpiricTest"
+            },
+            {
+              "fieldApiName": "TR1__Job_Search_Related_List_Layout__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Manual_Timesheet_validation_check__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Mass_Placement_Batch_Size__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 30
+            },
+            {
+              "fieldApiName": "TR1__New_Email_Model_Provider__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Nova2_Named_Credential__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "tr1__nova2_dev"
+            },
+            {
+              "fieldApiName": "TR1__Organization_ID__c",
+              "pdsValueType": "SOQL_SIMPLE_RESULT",
+              "fieldValue": "SELECT Id FROM Organization"
+            },
+            {
+              "fieldApiName": "TR1__OverwriteManualCreatedEducation__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__OverwriteManualCreatedEmployment__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__OverwriteSystemGeneratedEmployment__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__OverwriteUnverifiedNormalisedSkills__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__OverwriteVerifiedEducation__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__OverwriteVerifiedEmployment__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__OverwriteVerifiedNormalisedSkills__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Parsing_Debug__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Redirect_To_ClosingReport__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Redirect_To_Resume_Editor__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Resume_Search_Filters_Class__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Salesforce_Host__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "CS68.salesforce.com"
+            },
+            {
+              "fieldApiName": "TR1__SAM_NodeJSSearchService__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "/v2.11/smservices/candidate/search"
+            },
+            {
+              "fieldApiName": "TR1__SAM_Result_Offset_Size__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 250
+            },
+            {
+              "fieldApiName": "TR1__Save_Education_While_Parsing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Save_Employment_While_Parsing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Save_Skills_While_Parsing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Schedule_Timesheet_Chunk_Size__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 50
+            },
+            {
+              "fieldApiName": "TR1__Search_Results_Additional_Contact_Fields__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Search_Result_Default_Page_Size__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 100
+            },
+            {
+              "fieldApiName": "TR1__SendOut_Invite_Candidate_Email_Template__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "SendOutTemplate"
+            },
+            {
+              "fieldApiName": "TR1__SendOut_Invite_Interviewer_EmailTemplate__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "SendOutTemplate"
+            },
+            {
+              "fieldApiName": "TR1__ShowTabs__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__SM_Relatedlist_Layout__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Standard_Call_List_Email_Field__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "Email"
+            },
+            {
+              "fieldApiName": "TR1__Street_Address_Separator__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Street_Number_First__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Supported_Call_List_Email_File_Types__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__SynonymLanguage__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__TalentRover_Nova_API_Host__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "https://nova-textkernel-dev.sfdc.bullhornstaffing.com"
+            },
+            {
+              "fieldApiName": "TR1__Talent_Rover_API__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "https://data-api.talentrover.com"
+            },
+            {
+              "fieldApiName": "TR1__Talent_Rover_Host__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "https://parser.talentrover.com/Talentrover/Candidate.asmx"
+            },
+            {
+              "fieldApiName": "TR1__TimesheetType__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "Weekly"
+            },
+            {
+              "fieldApiName": "TR1__UpdateExistingEducationHistory__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__UpdateExistingSkills__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__UpdateExistingWorkHistory__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_Custom_Templates_in_CallList__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_Email_Component__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Use_JobBoardApplication__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_LinkedIn_RSC__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_Override_Amt_Fields_for_GP_Invoices__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_Presigned_urls__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_Rate_Card_Module__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Use_Signature_In_CallList__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullApiName": "TR1__ATS_Job_AppV2_Picklist_Mapping__c",
+      "records": []
+    },
+    {
+      "fullApiName": "TR1__Resume_Manager_Settings__c",
+      "records": [
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName": "TR1__Alternative_Canvas_Connected_App_Name__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Always_as_PDF__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Default_PDF_Recognition_Mode__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "Flow"
+            },
+            {
+              "fieldApiName": "TR1__Do_not_create_new_CV_when_editing__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_Alternative_File_Names_for_Attach__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_CV_Sharing_With_Users__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Make_CV_Default__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Send_as_PDF__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullApiName": "TR1__ATS_Configuration_Settings__c",
+      "records": [
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName": "TR1__ATS_Submittal_Default_Email_Template__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Client_Contact_Record_Type__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Disablesinglemoveback__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Disable_ATSv2_actions_for_Closed_Jobs__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Disable_log_activities_for_Applications__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_AccountContact_Interviewers__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_grid_format_for_offer_page__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Enable_send_email_mode__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Hide_CertificationTab_SoSAttachments__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Hide_ResumeTab_SoSAttachments__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__IsSendOutEmailTemplateRequired__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Is_Send_Out_Duration_Field_Mandatory__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Is_Send_Out_Interviewers_Field_Mandatory__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Is_Send_Out_Type_Field_Mandatory__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Kanban_Record_Size__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 50
+            },
+            {
+              "fieldApiName": "TR1__Kanban_View_Disabled__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__List_view_records_size__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 50
+            },
+            {
+              "fieldApiName": "TR1__Name_Space_Prefix__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "TR1__"
+            },
+            {
+              "fieldApiName": "TR1__Quick_Add_Candidates_Display_Number__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": 500
+            },
+            {
+              "fieldApiName": "TR1__SAM_move_to_Application_Max__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Send_Out_Duration_Field_Default__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Send_Out_Type_Field_Default__c",
+              "pdsValueType": "SIMPLE_VALUE"
+            },
+            {
+              "fieldApiName": "TR1__Submit_without_Email__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Submit_With_Email__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            },
+            {
+              "fieldApiName": "TR1__Toggle_Views_Button_Disabled__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullApiName": "TR1__CalendarDays__c",
+      "records": [
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName": "Name",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "CandidateCalendar"
+            },
+            {
+              "fieldApiName": "TR1__Friday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Monday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Saturday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Sunday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Thursday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Tuesday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Wednesday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            }
+          ]
+        },
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName": "Name",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "ClosingReportCalendar"
+            },
+            {
+              "fieldApiName": "TR1__Friday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Monday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Saturday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Sunday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Thursday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Tuesday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Wednesday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            }
+          ]
+        },
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName": "Name",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": "JobCalendar"
+            },
+            {
+              "fieldApiName": "TR1__Friday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Monday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Saturday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Sunday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Thursday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Tuesday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            },
+            {
+              "fieldApiName": "TR1__Wednesday__c",
+              "pdsValueType": "SIMPLE_VALUE",
+              "fieldValue": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullApiName": "TR1__Scheduler_Utilities__c",
+      "records": [
+        {
+          "actionType": "CREATE",
+          "targetType": "ORG_WIDE_DEFAULT",
+          "settingRecordFields": [
+            {
+              "fieldApiName":"Name",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"ContactColorCode"
+            },
+            {
+              "fieldApiName":"TR1__Allow_to_Edit_Delete_Days_on_Calendar__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__AM_EndTime__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"12:00 PM"
+            },
+            {
+              "fieldApiName":"TR1__AM_StartTime__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"9:00 AM"
+            },
+            {
+              "fieldApiName":"TR1__Available_color_code__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"#7CFC00"
+            },
+            {
+              "fieldApiName":"TR1__Booked_color_code__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"#800080"
+            },
+            {
+              "fieldApiName":"TR1__Calendar_Date_Format__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"dd/MM"
+            },
+            {
+              "fieldApiName":"TR1__calenderView__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"month"
+            },
+            {
+              "fieldApiName":"TR1__Default_Shift__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"Daily"
+            },
+            {
+              "fieldApiName":"TR1__Default_User_Owned_Records__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__Default_Week_Start_Day__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"Monday"
+            },
+            {
+              "fieldApiName":"TR1__defaultweekstartdaynumber__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":0
+            },
+            {
+              "fieldApiName":"TR1__Distance_Field__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"Proximity_Location__c"
+            },
+            {
+              "fieldApiName":"TR1__Distance_Units__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"mi"
+            },
+            {
+              "fieldApiName":"TR1__EndTime__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"11:59 PM"
+            },
+            {
+              "fieldApiName":"TR1__Hide_Book_Button__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__is_Clone__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__is_Create_Vacancy__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__is_Switch__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__isFullDay__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":true
+            },
+            {
+              "fieldApiName":"TR1__isMedRecruitAdditionalFilters__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__isSendEmail__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__My_Records_Field__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"(Blank)"
+            },
+            {
+              "fieldApiName":"TR1__ObjectPrefixCA__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"a2e"
+            },
+            {
+              "fieldApiName":"TR1__ObjectPrefixJA__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"a2l"
+            },
+            {
+              "fieldApiName":"TR1__PM_EndTime__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"6:00 PM"
+            },
+            {
+              "fieldApiName":"TR1__PM_StartTime__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"2:00 PM"
+            },
+            {
+              "fieldApiName":"TR1__SendConfirmation_Later__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":false
+            },
+            {
+              "fieldApiName":"TR1__StartTime__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"12:00 AM"
+            },
+            {
+              "fieldApiName":"TR1__Tentative_Color_Code__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"#00BFFF"
+            },
+            {
+              "fieldApiName":"TR1__Unavailable_color_code__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"#FF5500"
+            },
+            {
+              "fieldApiName":"TR1__Workshift_Distance_Field__c",
+              "pdsValueType":"SIMPLE_VALUE",
+              "fieldValue":"(Blank)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

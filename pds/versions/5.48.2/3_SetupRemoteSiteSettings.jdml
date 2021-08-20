@@ -1,0 +1,67 @@
+{
+  "remoteSiteSettings": [
+    {
+      "description": "Amazon S3 Bucket",
+      "fullName": "amazonBucket",
+      "isActive": true,
+      "fieldValue": "https://tr.my.salesforce.com/a4O3o000001wKfa",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Ats Domain",
+      "fullName": "Atsdomain",
+      "isActive": true,
+      "fieldValue": "CONVERT_INSTANCE_URL_TO_PACKAGE_VF_URL",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Phoenix Host",
+      "fullName": "phoenixHost",
+      "isActive": true,
+      "fieldValue": "https://nova-textkernel-dev.sfdc.bullhornstaffing.com",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Current Instance Lightning domain",
+      "fullName": "lightningDomain",
+      "isActive": true,
+      "fieldValue": "CONVERT_INSTANCE_URL_TO_LIGHTNING_URL",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Talent Rover Nova API Host",
+      "fullName": "talentroverNovaAPIhost",
+      "isActive": true,
+      "fieldValue": "https://api.talentrover.com",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Talent Rover Host",
+      "fullName": "Talentroverhost",
+      "isActive": true,
+      "fieldValue": "https://parser.talentrover.com",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Ruby Host",
+      "fullName": "rubyHost",
+      "isActive": true,
+      "fieldValue": "https://data-api.talentrover.com",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Current Instance Visual force domain",
+      "fullName": "Vfdomain",
+      "isActive": true,
+      "fieldValue": "CONVERT_INSTANCE_URL_TO_VF_URL",
+      "pdsValueType": "SIMPLE_VALUE"
+    },
+    {
+      "description": "Cloud Front URL",
+      "fullName": "cloudFrontNet",
+      "isActive": true,
+      "fieldValue": "https://d2px9j290501m5.cloudfront.net",
+      "pdsValueType": "SIMPLE_VALUE"
+    }
+  ]
+}

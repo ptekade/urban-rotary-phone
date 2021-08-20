@@ -1,0 +1,148 @@
+{
+  "sObjectRecords": [
+    {
+      "actionType": "UPSERT",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "CleanStatus",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Pending"
+        },
+        {
+          "fieldApiName": "Name",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Candidate Pool"
+        },
+        {
+          "fieldApiName": "TR1__isDummy__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        },
+        {
+          "fieldApiName": "TR1__IsMemberOfDefaultAccountPool__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        },
+        {
+          "fieldApiName": "TR1__Status__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Prospect"
+        },
+        {
+          "fieldApiName": "TR1__Update_Related_Jobs__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        }
+      ],
+      "sObjectName": "Account",
+      "searchCondition": "Name = 'Candidate Pool'"
+    },
+    {
+      "actionType": "UPSERT",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "Name",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Recruiter_Permission"
+        },
+        {
+          "fieldApiName": "Label",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Recruiter Permission"
+        },
+        {
+          "fieldApiName": "LicenseId",
+          "pdsValueType": "SIMPLE_VALUE"
+        },
+        {
+          "fieldApiName": "HasActivationRequired",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        },
+        {
+          "fieldApiName": "IsOwnedByProfile",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        },
+        {
+          "fieldApiName": "IsCustom",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": true
+        },
+        {
+          "fieldApiName": "Type",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Regular"
+        }
+      ],
+      "sObjectName": "PermissionSet",
+      "searchCondition": "Name = 'Recruiter_Permission'"
+    },
+    {
+      "actionType": "CREATE",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "Name",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Event"
+        },
+        {
+          "fieldApiName": "DeveloperName",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Event"
+        },
+        {
+          "fieldApiName": "SobjectType",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Event"
+        }
+      ],
+      "sObjectName": "RecordType"
+    },
+    {
+      "actionType": "CREATE",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "Name",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Continuous Recruitment"
+        },
+        {
+          "fieldApiName": "DeveloperName",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Continuous_Recruitment"
+        },
+        {
+          "fieldApiName": "SobjectType",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "TR1__Job__c"
+        }
+      ],
+      "sObjectName": "RecordType"
+    },
+    {
+      "actionType": "UPDATE",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "IsActive",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        }
+      ],
+      "sObjectName": "RecordType",
+      "searchCondition": "DeveloperName = 'Fixed_Term_Booking' and sObjectType = 'TR1__Job__c'"
+    },
+    {
+      "actionType": "UPDATE",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "IsActive",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        }
+      ],
+      "sObjectName": "RecordType",
+      "searchCondition": "DeveloperName = 'Retained' and sObjectType = 'TR1__Job__c'"
+    }
+  ]
+}

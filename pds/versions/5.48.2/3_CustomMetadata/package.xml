@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>TR1__ATS_Action_Configuration.TR1__Internal_Interview_Consulting</members>
-        <name>CustomMetadata</name>
-    </types>
-    <version>52.0</version>
-</Package>
