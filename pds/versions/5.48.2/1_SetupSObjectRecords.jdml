@@ -79,7 +79,7 @@
       "searchCondition": "Name = 'Recruiter_Permission'"
     },
     {
-      "actionType": "CREATE",
+      "actionType": "UPSERT",
       "sObjectRecordFields": [
         {
           "fieldApiName": "Name",
@@ -97,10 +97,11 @@
           "fieldValue": "Event"
         }
       ],
-      "sObjectName": "RecordType"
+      "sObjectName": "RecordType",
+      "searchCondition": "DeveloperName = 'Event' and sObjectType = 'Event'"
     },
     {
-      "actionType": "CREATE",
+      "actionType": "UPSERT",
       "sObjectRecordFields": [
         {
           "fieldApiName": "Name",
@@ -118,7 +119,8 @@
           "fieldValue": "TR1__Job__c"
         }
       ],
-      "sObjectName": "RecordType"
+      "sObjectName": "RecordType",
+      "searchCondition": "DeveloperName = 'Continuous_Recruitment' and sObjectType = 'TR1__Job__c'"
     },
     {
       "actionType": "UPDATE",
