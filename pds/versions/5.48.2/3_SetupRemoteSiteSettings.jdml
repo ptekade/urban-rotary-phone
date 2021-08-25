@@ -4,8 +4,9 @@
       "description": "Amazon S3 Bucket",
       "fullName": "amazonBucket",
       "isActive": true,
-      "fieldValue": "https://tr.my.salesforce.com/a4O3o000001wKfa",
-      "pdsValueType": "SIMPLE_VALUE"
+      "fieldValue": "RSS_AMAZON_S3_BUCKET_URL",
+      "pdsValueType": "ENVIRONMENT_VARIABLE",
+      "defaultValue": "https://stub.force-deploy.sfdc.bullhornstaffing.com"
     },
     {
       "description": "Ats Domain",
@@ -18,8 +19,9 @@
       "description": "Phoenix Host",
       "fullName": "phoenixHost",
       "isActive": true,
-      "fieldValue": "https://nova-textkernel-dev.sfdc.bullhornstaffing.com",
-      "pdsValueType": "SIMPLE_VALUE"
+      "fieldValue": "RSS_PHOENIX_URL",
+      "pdsValueType": "ENVIRONMENT_VARIABLE",
+      "defaultValue": "https://stub.force-deploy.sfdc.bullhornstaffing.com"
     },
     {
       "description": "Current Instance Lightning domain",
@@ -32,22 +34,25 @@
       "description": "Talent Rover Nova API Host",
       "fullName": "talentroverNovaAPIhost",
       "isActive": true,
-      "fieldValue": "https://api.talentrover.com",
-      "pdsValueType": "SIMPLE_VALUE"
+      "fieldValue": "RSS_TALENT_ROVER_NOVA_API_HOST",
+      "pdsValueType": "ENVIRONMENT_VARIABLE",
+      "defaultValue": "https://stub.force-deploy.sfdc.bullhornstaffing.com"
     },
     {
       "description": "Talent Rover Host",
       "fullName": "Talentroverhost",
       "isActive": true,
-      "fieldValue": "https://parser.talentrover.com",
-      "pdsValueType": "SIMPLE_VALUE"
+      "fieldValue": "RSS_TALENT_ROVER_HOST",
+      "pdsValueType": "ENVIRONMENT_VARIABLE",
+      "defaultValue": "https://stub.force-deploy.sfdc.bullhornstaffing.com"
     },
     {
       "description": "Ruby Host",
       "fullName": "rubyHost",
       "isActive": true,
-      "fieldValue": "https://data-api.talentrover.com",
-      "pdsValueType": "SIMPLE_VALUE"
+      "fieldValue": "RSS_RUBY_HOST",
+      "pdsValueType": "ENVIRONMENT_VARIABLE",
+      "defaultValue": "https://stub.force-deploy.sfdc.bullhornstaffing.com"
     },
     {
       "description": "Current Instance Visual force domain",
@@ -60,8 +65,9 @@
       "description": "Cloud Front URL",
       "fullName": "cloudFrontNet",
       "isActive": true,
-      "fieldValue": "https://d2px9j290501m5.cloudfront.net",
-      "pdsValueType": "SIMPLE_VALUE"
+      "fieldValue": "RSS_CLOUD_FRONT_URL",
+      "pdsValueType": "ENVIRONMENT_VARIABLE",
+      "defaultValue": "https://stub.force-deploy.sfdc.bullhornstaffing.com"
     }
   ]
 }
