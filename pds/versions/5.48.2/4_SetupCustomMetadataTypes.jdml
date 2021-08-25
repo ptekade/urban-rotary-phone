@@ -80,9 +80,9 @@
           ]
         },
         {
-          "fullName": "TR1__Group_Interview_Retained",
+          "fullName": "Group_Interview_Retained",
           "label": "Group Interview Retained",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -377,9 +377,9 @@
           ]
         },
         {
-          "fullName": "TR1__Group_Interview_Fixed",
+          "fullName": "Group_Interview_Fixed",
           "label": "Group Interview Fixed",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -758,9 +758,9 @@
           ]
         },
         {
-          "fullName": "TR1__Edit_Internal_Interviews_Permanent",
+          "fullName": "Edit_Internal_Interviews_Permanent",
           "label": "Edit Internal Interviews Permanent",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -1055,9 +1055,9 @@
           ]
         },
         {
-          "fullName": "TR1__Edit_Internal_Interviews_Retained",
+          "fullName": "Edit_Internal_Interviews_Retained",
           "label": "Edit Internal Interviews Retained",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -2256,9 +2256,9 @@
           ]
         },
         {
-          "fullName": "TR1__Edit_Internal_Interviews_Fixed",
+          "fullName": "Edit_Internal_Interviews_Fixed",
           "label": "Edit Internal Interviews Fixed",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -2401,9 +2401,9 @@
           ]
         },
         {
-          "fullName": "TR1__Group_Interview_Consulting",
+          "fullName": "Group_Interview_Consulting",
           "label": "Group Interview Consulting",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -3066,9 +3066,9 @@
           ]
         },
         {
-          "fullName": "TR1__Group_Interview_Permanent",
+          "fullName": "Group_Interview_Permanent",
           "label": "Group Interview Permanent",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -4103,9 +4103,9 @@
           ]
         },
         {
-          "fullName": "TR1__Edit_Internal_Interviews_Consulting",
+          "fullName": "Edit_Internal_Interviews_Consulting",
           "label": "Edit Internal Interviews Consulting",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action_Name__c",
@@ -7909,9 +7909,9 @@
       "fullName": "TR1__Email_Signature__mdt",
       "records": [
         {
-          "fullName": "TR1__default",
+          "fullName": "default",
           "label": "default",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Enable_Add_My_Signature__c",
@@ -7965,9 +7965,9 @@
       "fullName": "TR1__BHTK_object_configuration__mdt",
       "records": [
         {
-          "fullName": "TR1__Unit_test_candidate",
+          "fullName": "Unit_test_candidate",
           "label": "Unit test candidate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Facets_to_hide__c",
@@ -10378,9 +10378,9 @@
       "fullName": "TR1__Candidate_Mapping__mdt",
       "records": [
         {
-          "fullName": "TR1__Skill_EndDate",
+          "fullName": "Skill_EndDate",
           "label": "Skill_EndDate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10412,9 +10412,9 @@
           ]
         },
         {
-          "fullName": "TR1__RegionFailover",
+          "fullName": "RegionFailover",
           "label": "Region",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10448,9 +10448,9 @@
           ]
         },
         {
-          "fullName": "TR1__Skill_StartDate",
+          "fullName": "Skill_StartDate",
           "label": "Skill_StartDate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10482,9 +10482,9 @@
           ]
         },
         {
-          "fullName": "TR1__MobilePhone",
+          "fullName": "MobilePhone",
           "label": "MobilePhone",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10518,9 +10518,9 @@
           ]
         },
         {
-          "fullName": "TR1__PostalCode",
+          "fullName": "PostalCode",
           "label": "PostalCode",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10554,9 +10554,9 @@
           ]
         },
         {
-          "fullName": "TR1__Gender",
+          "fullName": "Gender",
           "label": "Gender",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10590,9 +10590,9 @@
           ]
         },
         {
-          "fullName": "TR1__EndDate",
+          "fullName": "EndDate",
           "label": "EndDate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10624,9 +10624,9 @@
           ]
         },
         {
-          "fullName": "TR1__HomePhone",
+          "fullName": "HomePhone",
           "label": "HomePhone",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10660,9 +10660,9 @@
           ]
         },
         {
-          "fullName": "TR1__LastName_DefaultValue",
+          "fullName": "LastName_DefaultValue",
           "label": "LastName DefaultValue",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10694,9 +10694,9 @@
           ]
         },
         {
-          "fullName": "TR1__EmployerCountry",
+          "fullName": "EmployerCountry",
           "label": "EmployerCountry",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10728,9 +10728,9 @@
           ]
         },
         {
-          "fullName": "TR1__Major",
+          "fullName": "Major",
           "label": "Major",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10762,9 +10762,9 @@
           ]
         },
         {
-          "fullName": "TR1__EmployerName",
+          "fullName": "EmployerName",
           "label": "EmployerName",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10796,9 +10796,9 @@
           ]
         },
         {
-          "fullName": "TR1__EmployerRegion",
+          "fullName": "EmployerRegion",
           "label": "EmployerRegion",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10830,9 +10830,9 @@
           ]
         },
         {
-          "fullName": "TR1__EndDate_Emp",
+          "fullName": "EndDate_Emp",
           "label": "EndDate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10864,9 +10864,9 @@
           ]
         },
         {
-          "fullName": "TR1__ESHighestEducationLevel",
+          "fullName": "ESHighestEducationLevel",
           "label": "ESHighestEducationLevel",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10899,9 +10899,9 @@
           ]
         },
         {
-          "fullName": "TR1__City",
+          "fullName": "City",
           "label": "City",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10935,9 +10935,9 @@
           ]
         },
         {
-          "fullName": "TR1__StartDate",
+          "fullName": "StartDate",
           "label": "StartDate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -10969,9 +10969,9 @@
           ]
         },
         {
-          "fullName": "TR1__DateOfBirth",
+          "fullName": "DateOfBirth",
           "label": "DateOfBirth",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11005,9 +11005,9 @@
           ]
         },
         {
-          "fullName": "TR1__StreetAddress",
+          "fullName": "StreetAddress",
           "label": "StreetAddress",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11039,9 +11039,9 @@
           ]
         },
         {
-          "fullName": "TR1__JobDescription",
+          "fullName": "JobDescription",
           "label": "JobDescription",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11073,9 +11073,9 @@
           ]
         },
         {
-          "fullName": "TR1__Professional_Skills",
+          "fullName": "Professional_Skills",
           "label": "Professional Skills",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11108,9 +11108,9 @@
           ]
         },
         {
-          "fullName": "TR1__OtherPhone",
+          "fullName": "OtherPhone",
           "label": "OtherPhone",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11144,9 +11144,9 @@
           ]
         },
         {
-          "fullName": "TR1__LastName",
+          "fullName": "LastName",
           "label": "LastName",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11180,9 +11180,9 @@
           ]
         },
         {
-          "fullName": "TR1__EducationLevel",
+          "fullName": "EducationLevel",
           "label": "EducationLevel",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11214,9 +11214,9 @@
           ]
         },
         {
-          "fullName": "TR1__JobTitle",
+          "fullName": "JobTitle",
           "label": "JobTitle",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11248,9 +11248,9 @@
           ]
         },
         {
-          "fullName": "TR1__CountryFailover",
+          "fullName": "CountryFailover",
           "label": "Country",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11284,9 +11284,9 @@
           ]
         },
         {
-          "fullName": "TR1__FullName",
+          "fullName": "FullName",
           "label": "FullName",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11320,9 +11320,9 @@
           ]
         },
         {
-          "fullName": "TR1__Citizenship",
+          "fullName": "Citizenship",
           "label": "Citizenship",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11356,9 +11356,9 @@
           ]
         },
         {
-          "fullName": "TR1__Computer_Skills",
+          "fullName": "Computer_Skills",
           "label": "Computer Skills",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11391,9 +11391,9 @@
           ]
         },
         {
-          "fullName": "TR1__Nationality",
+          "fullName": "Nationality",
           "label": "Nationality",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11427,9 +11427,9 @@
           ]
         },
         {
-          "fullName": "TR1__Duration",
+          "fullName": "Duration",
           "label": "Duration",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11462,9 +11462,9 @@
           ]
         },
         {
-          "fullName": "TR1__MiddleName",
+          "fullName": "MiddleName",
           "label": "MiddleName",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11498,9 +11498,9 @@
           ]
         },
         {
-          "fullName": "TR1__HighestEducationLevel",
+          "fullName": "HighestEducationLevel",
           "label": "HighestEducationLevel",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11534,9 +11534,9 @@
           ]
         },
         {
-          "fullName": "TR1__EmployerCity",
+          "fullName": "EmployerCity",
           "label": "EmployerCity",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11568,9 +11568,9 @@
           ]
         },
         {
-          "fullName": "TR1__Languages",
+          "fullName": "Languages",
           "label": "Languages",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11603,9 +11603,9 @@
           ]
         },
         {
-          "fullName": "TR1__Soft_Skills",
+          "fullName": "Soft_Skills",
           "label": "Soft Skills",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11638,9 +11638,9 @@
           ]
         },
         {
-          "fullName": "TR1__InstituteName",
+          "fullName": "InstituteName",
           "label": "InstituteName",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11672,9 +11672,9 @@
           ]
         },
         {
-          "fullName": "TR1__DriversLicense",
+          "fullName": "DriversLicense",
           "label": "DriversLicense",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11708,9 +11708,9 @@
           ]
         },
         {
-          "fullName": "TR1__Country",
+          "fullName": "Country",
           "label": "Country",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11744,9 +11744,9 @@
           ]
         },
         {
-          "fullName": "TR1__Region",
+          "fullName": "Region",
           "label": "Region",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11780,9 +11780,9 @@
           ]
         },
         {
-          "fullName": "TR1__FirstName",
+          "fullName": "FirstName",
           "label": "FirstName",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11816,9 +11816,9 @@
           ]
         },
         {
-          "fullName": "TR1__StartDate_Emp",
+          "fullName": "StartDate_Emp",
           "label": "StartDate",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11850,9 +11850,9 @@
           ]
         },
         {
-          "fullName": "TR1__Email",
+          "fullName": "Email",
           "label": "Email",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11886,9 +11886,9 @@
           ]
         },
         {
-          "fullName": "TR1__Extracted_Skill",
+          "fullName": "Extracted_Skill",
           "label": "Extracted Skill",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11920,9 +11920,9 @@
           ]
         },
         {
-          "fullName": "TR1__Level",
+          "fullName": "Level",
           "label": "Level",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11954,9 +11954,9 @@
           ]
         },
         {
-          "fullName": "TR1__CurrentPosition",
+          "fullName": "CurrentPosition",
           "label": "CurrentPosition",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Action__c",
@@ -11995,9 +11995,9 @@
       "fullName": "TR1__ATS_New_Contact_Configuration__mdt",
       "records": [
         {
-          "fullName": "TR1__Contact_Address",
+          "fullName": "Contact_Address",
           "label": "Contact Address",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Field_Set_Name__c",
@@ -12017,9 +12017,9 @@
           ]
         },
         {
-          "fullName": "TR1__Contact_Details",
+          "fullName": "Contact_Details",
           "label": "Contact Details",
-          "actionType": "CREATE",
+          "actionType": "UPSERT",
           "metadataRecordFields": [
             {
               "fieldApiName": "TR1__Field_Set_Name__c",
