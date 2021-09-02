@@ -11,7 +11,7 @@
         {
           "fieldApiName": "Name",
           "pdsValueType": "SIMPLE_VALUE",
-          "fieldValue": "Candidate Pool"
+          "fieldValue": "New Account Name"
         },
         {
           "fieldApiName": "TR1__isDummy__c",
@@ -35,7 +35,7 @@
         }
       ],
       "sObjectName": "Account",
-      "searchCondition": "Name = 'Candidate Pool'"
+      "searchCondition": "Name = 'New Account Name'"
     }  
   ]
 }
