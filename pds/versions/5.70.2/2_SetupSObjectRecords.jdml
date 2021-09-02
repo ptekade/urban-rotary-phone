@@ -1,0 +1,41 @@
+{
+  "sObjectRecords": [
+    {
+      "actionType": "UPSERT",
+      "sObjectRecordFields": [
+        {
+          "fieldApiName": "CleanStatus",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Pending"
+        },
+        {
+          "fieldApiName": "Name",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Candidate Pool"
+        },
+        {
+          "fieldApiName": "TR1__isDummy__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        },
+        {
+          "fieldApiName": "TR1__IsMemberOfDefaultAccountPool__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        },
+        {
+          "fieldApiName": "TR1__Status__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": "Prospect"
+        },
+        {
+          "fieldApiName": "TR1__Update_Related_Jobs__c",
+          "pdsValueType": "SIMPLE_VALUE",
+          "fieldValue": false
+        }
+      ],
+      "sObjectName": "Account",
+      "searchCondition": "Name = 'Candidate Pool'"
+    }  
+  ]
+}
